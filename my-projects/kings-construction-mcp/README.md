@@ -7,13 +7,14 @@ quoting tools for Kings Construction & Property Solutions.
 
 ## What it exposes
 
-| Type     | Name              | What it does                                                      |
-| -------- | ----------------- | ----------------------------------------------------------------- |
-| Tool     | `job_estimate`    | Labour + materials (with markup) + call-out fee + 10% GST in AUD  |
-| Tool     | `concrete_volume` | m³ for a slab/footing, with waste allowance and 20 kg bag count    |
-| Tool     | `paint_quantity`  | Litres of paint for a wall area and number of coats               |
-| Resource | `rates://standard`| The rate card the tools use                                       |
-| Prompt   | `quote_email`     | Drafts a client quote email using `job_estimate`                  |
+- **Tool `job_estimate`**: labour + materials (with markup) + call-out fee
+  + 10% GST, in AUD
+- **Tool `concrete_volume`**: m³ for a slab or footing, with a waste
+  allowance and a 20 kg bag count
+- **Tool `paint_quantity`**: litres of paint for a wall area and number of
+  coats
+- **Resource `rates://standard`**: the rate card the tools use
+- **Prompt `quote_email`**: drafts a client quote email using `job_estimate`
 
 > The rates in `RATE_CARD` (`server.py`) are placeholders. Replace them with
 > your real labour rate, call-out fee and markup before using it for quotes.
