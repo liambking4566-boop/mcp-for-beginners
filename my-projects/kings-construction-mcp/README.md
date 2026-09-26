@@ -8,7 +8,7 @@ quoting tools for Kings Construction & Property Solutions.
 ## What it exposes
 
 - **Tool `job_estimate`**: labour + materials (with markup) + call-out fee
-  + 10% GST, in AUD
+  plus 10% GST, in AUD
 - **Tool `concrete_volume`**: m³ for a slab or footing, with a waste
   allowance and a 20 kg bag count
 - **Tool `paint_quantity`**: litres of paint for a wall area and number of
